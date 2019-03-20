@@ -7,6 +7,17 @@
 	<title>test1</title>
 </head>
 <body>
-
+	<script src="https://unpkg.com/vue"></script>
+	<div id="app">
+	  {{ message }}
+	</div>
+	<script>
+	var app = new Vue({
+		el: '#app',
+		data: {
+			message: '안녕하세요 Vue!'
+		}
+	})
+	</script>
 </body>
 </html>
